@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-       <meta charset="utf-8">
+       <meta charset="utf-8"/>
        <title>baiduqianduan-1</title>
 </head>
 
 <body>
-<h1>喵喵喵一级标题</h1>
-    <ul>
-         <li><a href="www.baidu.com">导航链接一</a></li>
-         <li><a href="www.baidu.com">导航链接二</a></li>
-         <li><a href="www.baidu.com">导航链接三</a></li>
-         <li><a href="www.baidu.com">导航链接四</a></li>
-    </ul>
-
-<article>
-        <h2>喵喵文章一级标题</h2>
-        <h3>喵文章二级标题</h3> 
-        <p>文章作者 文章发表时间</p>
-        <p>最近吃了一棒重型安利，就是这个花王的拖把。很轻很轻，拖起来完全不费力，拖把底部有凸点且有弹性，换行了<br/>
-        <p>所以毛发呀，衣物纤维啊，小垃圾啊，全都能粘在上面，即使没有扫过地直接拖，效果也很好。<a href="http://ife.baidu.com">最关键是这个拖地纸  巾，</a>花王标配略贵，我用的是网易严选的懒人抹布，十几块钱50张<br/>
+      <header role="banner">
+      <h1><a href="#"><img src="image/task_1_02_1.png" /></a></h1>
+      <nav role="navigation">
+      <ul>
+          <li><a href="#" target="_blank">导航链接1</a></li>
+          <li><a href="#" target="_blank">导航链接1</a></li>
+          <li><a href="#" target="_blank">导航链接1</a></li>
+          <li><a href="#" target="_blank">导航链接1</a></li>
+      </ul>
+      </nav>
+      </header>
+      
+<article>      
+         <h2>文章一级标题</h2>
+         <h3>文章二级标题</h3> 
+         <span class="auther">文章作者</span><span class="time">文章发表时间</span>
+         <p>最近吃了一棒重型安利，就是这个花王的拖把。很轻很轻，拖起来完全不费力，拖把底部有凸点且有弹性，换行了<br/>
+         <p>所以毛发呀，衣物纤维啊，小垃圾啊，全都能粘在上面，即使没有扫过地直接拖，效果也很好。<a href="http://ife.baidu.com">最关键是这个拖地纸  巾，</a>花王标配略贵，我用的是网易严选的懒人抹布，十几块钱50张<br/>
         <img src="">
         <p>今天这张已经擦过一轮家具了<a href="http://www.w3school.com.cn/" target="_black">打开一个新窗口</a>最后来拖地。</p>
 </article>
@@ -37,27 +41,27 @@
              <li>项目三</li>
         </ul>
 </article>
-  
+
+<div class="passage">
 <h2>图片</h2>
-<ul>
-  <li>好看的图片</li>
-  <img src="https://movie.douban.com/photos/photo/2402506779/">
-  <li>好看的图片</li>
-  <img src="https://movie.douban.com/photos/photo/2402506779/">
-  <li>好看的图片</li>
-  <img src="https://movie.douban.com/photos/photo/2402506779/">
-  <li>好看的图片</li>
-  <img src="https://movie.douban.com/photos/photo/2402506779/">
-  <li>好看的图片</li>
-  <img src="https://movie.douban.com/photos/photo/2402506779/">
-  <li>好看的图片</li>
-  <img src="https://movie.douban.com/photos/photo/2402506779/">
-</ul>
+	<div class="picture">
+		<p>好看的图片</p><img src="image/pic.png"   alt = "糟糕！">
+	</div>
+	<div class="picture">
+		<p>好看的图片</p><img src="image/pic.png"   alt = "糟糕！">
+	</div>
+	<div class="picture">
+		<p>好看的图片</p><img src="image/pic.png"   alt = "糟糕！">
+	</div>
+	<div class="picture">
+		<p>好看的图片</p><img src="image/pic.png"   alt = "糟糕！">
+	</div>
+</div>
 
 <article>
          <h2>最后一篇文章一级标题</h2>
          <h3>二级标题</h3>
-         <p>文章作者 文章发表时间</p>
+         <span class="auther">文章作者</span><span class="time">文章发表时间</span>
          <ol>
              <li>排名一</li>
              <li>排名二</li>
@@ -66,9 +70,9 @@
          <p>下面是一个表格</p>
             <table border="1">
             <tr>
-                <td>表头</td>
-                <td>表头</td>
-                <td>表头</td>
+                <th>表头</th>
+                <th>表头</th>
+                <th>表头</th>
             </tr>
             <tr>
                 <td>洗面奶</td>
@@ -84,10 +88,13 @@
                 <td>总计</td>
                 <td colspan="2">1000</td>
             </tr>
-    
-<h2>以后这里是一个侧栏，这是侧栏的标题</h2>
-<h3>侧栏注册窗口标题</h3>
-<form>     
+            </table>
+ </article>
+            
+<div id="sidebar"> 
+<div class="sidebar-content">
+     <h2>以后这里是一个侧栏，这是侧栏的标题</h2>
+     <form>     
      <label>请输入邮箱地址:<input type="text" name="email"></label><br/>
      <p>邮箱地址请按格式输入</p>
      <label>请输入密码：<input type="password" name="pwd"></label>
@@ -110,5 +117,6 @@
                           <textarea placeholder="输入您的个人描述" rows=""5 cols="20"></textarea>
                           <button type="submit">确认提交<button>
 </form> 
+</div>
 </body>  
 </html>
