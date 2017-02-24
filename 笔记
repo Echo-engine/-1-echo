@@ -1,0 +1,2 @@
+css中，用opacity设置背景半透明，所有后代元素会一起透明;
+       可以用background-color:rgba(*,*,*,透明度）。
