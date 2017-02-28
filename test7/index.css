@@ -1,0 +1,589 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin:0;
+	padding:0;
+	width:100%;
+	min-width:1280px;
+	position:relative;
+}
+.top{
+	width:1280px;
+	height:56px;
+	margin:0 auto;
+}
+.top-left{
+	height: 60px;
+    width: 106px;
+	margin-left:60px;
+	float:left;
+}
+.top-left .top-logo1{
+	float:left;
+	margin-top:12px;
+}
+.top-left .top-mes{
+	float:right;
+	font-family:"黑体";
+	font-size:21px;
+	color:#393a3a;
+}
+
+.top-right{
+	float:right;
+	height:60px;
+	font-size:14px;
+	font-family:"Microsoft YaHei UI";
+}
+
+.top-right .item{
+	float:left;
+	margin-top:12px;
+	margin-right:68px;	
+	list-style-type:none;
+}
+
+.top-right img{
+	top:16px;
+	right:100px;
+}
+
+.top-right a{
+	height:16px;
+	text-decoration:none;
+	color:#393a3a;
+}
+.top-right span{
+	color:#e74f4d;
+}
+
+.main{
+	width:1280px;
+	margin:0 auto;
+}
+.index-section1{
+	background:url(file:///C|/Users/Administrator/Documents/GitHub/ife-2016/test7/picture/section1.gif);
+	width:100%;
+	height:690px;
+	position:relative;
+}
+.sec1-back{
+	width:100%;
+	height:100%;
+	background:rgba(0,0,0,0.2);
+	
+}
+.sec1-box{
+	position:absolute;
+	top:224px;
+	left:116px;
+}
+.sec1-box h2{
+	font-family:"Microsoft YaHei UI";
+	font-size:60px;
+	color:#FFF;
+	
+}
+.sec1-box p{
+	font-family:"Microsoft YaHei UI";
+	font-size:21px;
+	line-height:16px;
+	color:#FFF;	
+}
+.sec1-box .button{
+	width:332px;
+	height:62px;
+	border:0;
+	background:#e7504d;
+	color:#fff;
+	font-size:30px;
+	font-family:"Microsoft YaHei UI";
+}
+
+.index-section2{
+	height:300px;
+	overflow:hidden;
+}
+.sec2-box{
+	width:25%;
+	float:left;	
+	height:250px;
+}
+.sec2-img{
+	height:131px;
+	padding-top:44px;
+	text-align:center;
+}
+
+.sec2-box .sec2-cell p{
+	height:50px;
+	text-align:center;
+	font-size:14px;
+	line-height:18px;
+	border-right: 2px solid #767777;
+}
+.index-section3{
+	width:100%;
+	height:400px;
+	background:#ededed;
+	position:relative;
+}
+.sec3-img{
+	height:227px;
+	width:100%;
+	position:absolute;
+	top:89px;
+	text-align:center
+}
+.sec3-box p{
+	width:100%;
+	position:absolute;
+	top:227px;
+	text-align:center;
+	line-height:56px;
+	font-size:54px;
+	font-family:"黑体";
+	color:#A2A2A2;
+}
+
+.index-section4{
+	width:100%;
+    height:342px;
+    padding-top:40px;
+    text-align:center;
+    background:url(file:///C|/Users/Administrator/Documents/GitHub/ife-2016/test7/picture/sec4-background.gif);
+	background-size:cover;
+	position:relative;
+}
+.sec4-message{
+	color:#fff;
+	font-family:"Microsoft YaHei UI";	
+}
+.sec4-message .mes-serch{
+	font-size:21px;
+	font-weight:normal;
+}
+.sec4-message .mes-line{
+	width:34px;
+	margin:0 auto;
+	border-top:2px solid #fff;
+}
+.sec4-message .mes-city{
+	font-size:12px;
+}
+
+.index-section4 .form{
+	width:100%;
+	margin:50px auto;
+	text-align:center;
+}
+.index-section4 .form select{
+	width:230px;
+	height:35px;
+	margin-right:25px;
+	border:0;
+    border-radius:0;
+	background:#fff; 
+	color:#a8aaaa;
+}
+
+.index-section4 .form input{
+	width:230px;
+	height:35px;
+	margin-right:120px;
+	border: 0;
+	background:#bf4f49;
+	color:#fff;
+	font-size:14px;
+	font-family:"Microsoft YaHei UI";
+	letter-spacing: 25px;
+}
+
+
+
+
+
+
+.index-section5{
+    width: 100%;
+    height: 600px;
+    background-color: #EDEAEA;
+	padding-top:100px;
+	text-align:center;
+}
+.index-section5 .pictures{
+	margin:0 auto;
+	text-align:center;
+	width:80%;
+}
+.index-section5 .pictures .box{
+	width:24%;
+	float:left;
+}
+.index-section5 .pictures .box img{
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #e1dedc;
+  width: 203px;
+  height:311px;
+}
+.index-section5 .pictures .box h3{
+	font-size:15px;
+	font-family:"Microsoft YaHei UI";
+	color:#323333;
+	margin-top:13px;
+}
+.pictures .box h3.SH{
+	font-size:25px;
+	text-align:justify;
+    width: 100%;
+}
+	
+.index-section5 .pictures .box p{
+	color: #A2A2A2;
+  	font-size: 13px;
+  	margin: 10px 0;
+}
+
+.index-section6{
+	width:100%;
+	height:565px;
+	font-family:"Microsoft YaHei UI";
+	text-align:center;
+	position:relative;
+}
+.sec6-left{
+	width:850px;
+	float:left;
+	background:url(file:///C|/Users/Administrator/Documents/GitHub/ife-2016/test7/picture/se6-back.gif) no-repeat;
+	background-size:container;
+	padding-top:124px;
+}
+.sec6-left .mes{
+	color: #fff;
+    text-align: center;
+    width: 500px;
+    margin:0 auto;
+    padding:0;
+	
+}
+
+.sec6-left .mes h2{
+	font-size: 30px;
+    margin:0;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.sec6-left .mes h3{
+	font-size:158px;
+	margin:0;
+	line-height:200px;
+	
+}
+.sec6-left .mes p.beijing{
+	font-size:22px;
+	margin-top:30px;
+}
+.sec6-right{
+    margin-left:850px;
+    text-align: center;
+	padding-top:150px;
+}
+.sec6-right h4{
+	font-size:22px;
+	font-family:"Microsoft YaHei UI";
+	color:#323333;
+	top:160px;	
+}
+.sec6-right span{
+	color:#e74f4d;	
+}
+.sec6-right p{
+	width:70%;
+	margin:0 auto;
+	text-align:left;
+	color:#aaaaaa;
+	font-size:12px;
+}
+.sec6-right a{
+	width:105px;
+	height:34px;
+	display:inline-block;
+	margin-top:48px;
+	padding:8px 28px;
+	font-size:12px;
+	color:#e25c60;
+	border: 1px solid #FD323D;
+	line-height: 35px;
+	text-decoration:none;
+}
+	
+.sec6-right .page{
+ 	margin:50px auto;
+  	width:108px;
+  	text-align:center;
+}
+.sec6-right .page li{
+	display: inline-block;
+	list-style-type:none;
+ 	width: 8px;
+  	height: 8px;
+  	margin: 0 7px;
+  	border-radius:50%;
+  	background-color:#fff;
+  	border: 1px solid #929292;
+}
+.sec6-right .page .one{
+	background:#929293;
+}
+
+
+.index-section7{
+	width:100%;
+	height:518px;
+	padding:0;
+}
+.sec7-left{
+	width:33%;
+	float:left;
+	height:518px;
+	background:#e74f4d;
+	font-size:21px;
+	font-family:"黑体";
+	line-height:10px;
+	color:#fff;
+	text-align:center;
+}
+.sec7-left .box{
+	width:100%;
+	padding-top:168px;
+	text-align:center;	
+}
+.sec7-left .box span{
+	display:inline-block;
+	border-top:1px solid #fff;
+	width:32px;
+}
+.sec7-left .btn{
+	margin:20px auto;
+}
+.sec7-left .btn button{
+	width:170px;
+	height:44px;
+	border:1px solid #fff;
+	text-align:center;
+	background:#e74f4d;
+	color:#fff;
+}
+
+.sec7-middle{
+	width:33%;
+	float:left;
+	height:518px;
+	background:#fff;
+	font-size:21px;
+	font-family:"黑体";
+	line-height:10px;
+	color:#323333;
+	text-align:center;
+}
+.sec7-middle .box{
+	width:100%;
+	padding-top:168px;
+	text-align:center;	
+}
+.sec7-middle .box span{
+	display:inline-block;
+	border-top:1px solid #abaaaa;
+	width:32px;
+}
+.sec7-middle .btn{
+	margin:20px auto;
+}
+.sec7-middle .btn button{
+	width:170px;
+	height:44px;
+	border:1px solid #e74f4d;
+	text-align:center;
+	background:#fff;
+	color:#e74f4d;
+}
+
+.sec7-right{
+	width:33%;
+	float:left;
+	height:518px;
+}
+
+
+.index-section8{
+	width:100%;
+	height:750px;
+	margin:0 auto;
+}
+.index-section8 .sec8-top{
+	margin-top:115px;
+	text-align:center;
+}
+.index-section8 .sec8-top .line{
+	border-top:2px solid #e74f4d;
+	width:22px;
+	margin:0 auto;
+	line-height:1px;
+}
+
+.index-section8 .sec8-top h3{
+	font-size:21px;
+	font-family:"黑体";
+	color:#323333;
+}
+.index-section8 .sec8-top p{
+	font-size:12px;
+	font-family:"Microsoft YaHei UI";
+	color:#aaa;
+}
+.index-section8 .sec8-left{
+	float:left;
+	width:480px;
+	padding-left:130px;
+	padding-top:90px;
+	text-align:left;
+}
+.index-section8 .sec8-left .box{
+	margin-right:75px;
+}
+.index-section8 .sec8-left h4{
+	font-family:"黑体";
+	font-size:14px;
+	color:#231815;
+}
+.index-section8 .sec8-left p{
+	font-family:"宋体";
+	font-size:12px;
+	color:#aaaaaa;
+}
+.index-section8 .sec8-left .box span{
+	font-size: 14px;
+    color: #b3afac;
+    float: right;
+    cursor: pointer;
+}
+
+.index-section8 .sec8-right{
+	overflow:auto;
+	padding-top:90px;
+}
+
+.index-section8 .sec8-right input{
+    width:300px;
+	height:40px;
+	margin:10px;
+	text-align:left;
+	border:0;
+	background:#edecee;
+	font-family:"宋体";
+	font-size:12px;
+	color:#231815;
+}
+.index-section8 .sec8-right textarea{
+	width:620px;
+	height:120px;
+	margin:10px;
+	text-align:left;
+	border:0;
+	background:#edecee;
+	font-family:"宋体";
+	font-size:12px;
+	color:#231815;
+}
+.index-section8 .sec8-right .sub{
+    width:620px;
+	height:40px;
+	margin:10px;
+	text-align:center;
+	border:0;
+	background:#edecee;
+	font-family:"黑体";
+	font-size:14px;
+	color:#323333;
+}
+.index-section9{
+	width:100%;
+	height:360px;
+	text-align:center;	
+	background:#32353e;
+	position:relative;
+}
+.index-section9 .contain{
+	position:absolute;
+	width:90%;
+	height:220px;
+	top:50%;
+	margin-top:-110px;
+}
+.index-section9 .contain .box h3{
+	font-family:"黑体";
+	font-size:21px;
+	color:#fff;
+}
+.index-section9 .contain .box p{
+	font-family:"宋体";
+	font-size:12px;
+	color:#fff;
+}
+.index-section9 .contain .cell{
+	text-align:center;
+	width:510px;
+	margin:0 auto;
+}
+.index-section9 .contain .cell .text{
+	border:0;
+	background:#fff;
+	margin:0;
+	padding:0;
+	height:42px;
+	width:430px;
+	float:left;
+}
+.index-section9 .contain .cell .sub{
+	border:0;
+	background:#6f7278;
+	margin:0;
+	padding:0;
+	font-size:15px;
+	font-family:"Microsoft YaHei UI";
+	color:#fff;
+	height:42px;
+	width:80px;
+}
+
+
+footer{
+	width:1280px;
+	margin:0 auto;
+	height:58px;
+	background:#303039;
+	text-align:left;
+}
+
+footer span{
+	float:left;
+	margin-left:100px;
+	font-size:15px;
+	font-family:"Microsoft YaHei UI";
+	color:#fff;
+	line-height:58px;
+}
+
+footer a{
+	float:right;
+	margin-right:40px;
+	font-size:12px;
+	font-family:"宋体";
+	color:#fff;
+	text-decoration:none;
+	line-height:58px;
+}
+	
