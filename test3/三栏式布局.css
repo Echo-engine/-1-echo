@@ -1,0 +1,44 @@
+.main{
+	overflow:auto;
+	padding:20px;
+	margin:0 auto;
+	background:#eee;
+	border:#999;
+	font-family:"Times New Roman", Times, serif;
+	font-size:12px;
+	width:100%;
+}
+
+
+.left{
+	float:left;
+	width:200px;
+	height:auto;
+	padding:20px;
+	background:#FFF;
+	border:1px solid #066;
+}
+.right{
+	float:right;
+	height:auto;
+	width:120px;
+	padding:20px;
+	background:#fff;
+	border:1px solid #066;
+}
+
+.middle{
+	margin-left:260px;
+	margin-right:180px;
+	height:auto;
+	padding:20px;
+	background:#fff;
+	border:1px solid #066;
+}
+
+.logo_right{
+	background:#fff;
+	display:block;
+	margin:20px;
+    border:1px solid #999;
+}
