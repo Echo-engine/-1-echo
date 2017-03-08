@@ -1,2 +1,2 @@
-css中，用opacity设置背景半透明，所有后代元素会一起透明;
-       可以用background-color:rgba(*,*,*,透明度）。
+1. css中，用opacity设置背景半透明，所有后代元素会一起透明;可以用background-color:rgba(*,*,*,透明度）。
+2. class*="col-"表示css所有以“col”开头的都使用这个规则。
