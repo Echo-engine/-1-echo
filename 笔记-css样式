@@ -6,5 +6,9 @@
     去掉下划线：text-decoration:none
     鼠标经过效果：a:hover
     空格用：&nbsp
-    
+4. 居中设置
+    文字垂直居中：设置line-heigh=盒子高度
+        水平居中：text-align
+
+5. 右尖括号转义：&gt;
     
